@@ -48,7 +48,7 @@ const Login = () => {
         if (res.status === 'ok') {
             
             setUser(res.user)
-            navigate('/')
+            navigate('/BuyHouse')
             
         } else {
             setAlert(res.status)
