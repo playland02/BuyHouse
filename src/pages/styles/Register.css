@@ -1,0 +1,37 @@
+.container-register{
+    
+    width: 500px;
+    background-color:aliceblue;
+    box-shadow: 0 0 25px #000;
+}
+
+.card-header{
+    text-align: center;
+    border-bottom:darkgray solid 1px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.card-body{
+    padding: 20px;
+    text-align: center;
+
+}
+
+.form-control{
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+.btn-register{
+    padding: 5px 40px;
+    margin: 10px;
+
+}
+
+.card-footer{
+    font-size: 13px;
+}
