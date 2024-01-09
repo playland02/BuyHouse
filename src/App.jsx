@@ -25,7 +25,7 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path='/BuyHouse/' element={user?(<Home/>):(<Navigate to='/BuyHouse/login'/>)} />
+          <Route path='/BuyHouse' element={user?(<Home/>):(<Navigate to='/BuyHouse/login'/>)} />
           <Route path='/BuyHouse/register' element={<Register />} />
           <Route path='/BuyHouse/login' element={user?(<Navigate to='/'/>):(<Login/>)}/>
         </Routes>
