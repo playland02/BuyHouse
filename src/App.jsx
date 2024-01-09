@@ -25,9 +25,9 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={user?(<Home/>):(<Navigate to='/login'/>)} />
-          <Route path='/register' element={<Register />} />
-          <Route path='/login' element={user?(<Navigate to='/'/>):(<Login/>)}/>
+          <Route path='/BuyHouse/' element={user?(<Home/>):(<Navigate to='/BuyHouse/login'/>)} />
+          <Route path='/BuyHouse/register' element={<Register />} />
+          <Route path='/BuyHouse/login' element={user?(<Navigate to='/'/>):(<Login/>)}/>
         </Routes>
       </BrowserRouter>
 
